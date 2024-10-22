@@ -1,0 +1,11 @@
+React is a Java Script library which is developed by the facebook for building the app user interface(UI) . It helps the developers to create web applications that can update and render the data changes . It make easier to build the web application by React by organizing everything into small parts called components
+
+.JSX => React uses a special syntect called as JSX which look like HTML but is is written inside the Java Script , It helps you easily create the User interface.
+
+like:=>
+
+function welcome(){
+    return <h1> Hello World </h1>;
+}
+
+State => State is like a memeory for component

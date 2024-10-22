@@ -1,0 +1,19 @@
+/* this file contain the global styles that makes your app look nice */
+
+.App{
+    text-align: center; /* Center the App Content */
+    margin-top: 20px; /* Adds space at the top */
+}
+
+button {
+    padding: 10px 20px; /*Adds padding inside the button */
+    margin: 10px; /*Adds space around the button */
+    background-color: "4caf50"; /* sets a green background*/
+    color: white;
+    border: none;
+    cursor: pointer; /* Changes the cursur while hovering */
+}
+
+button:hover{
+    background-color: #45a049; /*Dark the Button when hovered */
+}
