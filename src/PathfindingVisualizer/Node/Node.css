@@ -1,0 +1,30 @@
+/*
+This file contains the styles for each node in the grid.
+*/
+.node {
+    width: 25px;
+    height: 25px;
+    background-color: white; /* Default node background */
+    border: 1px solid black; /* Black border between nodes */
+  }
+  
+  .node-visited {
+    background-color: lightblue; /* Color for visited nodes */
+  }
+  
+  .node-shortest-path {
+    background-color: yellow; /* Color for nodes in the shortest path */
+  }
+  
+  .node-start {
+    background-color: green; /* Color for the start node */
+  }
+  
+  .node-finish {
+    background-color: red; /* Color for the finish node */
+  }
+  
+  .node-wall {
+    background-color: black; /* Color for walls */
+  }
+  

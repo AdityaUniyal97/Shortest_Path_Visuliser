@@ -1,0 +1,50 @@
+/*  This file contains the styles for the visualizer */
+.grid {
+    display: inline-block; /* Display the grid as a block */
+    margin-top: 20px; /* Add margin at the top */
+  }
+  
+  .grid div {
+    display: flex; /* Make rows display as flex for easier layout */
+  }
+  
+  button {
+    padding: 10px 20px; /* Button padding for better appearance */
+    margin: 10px; /* Space between buttons */
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+  }
+  
+  .node {
+    width: 25px;
+    height: 25px;
+    background-color: white; /* Default background color for nodes */
+    border: 1px solid black; /* Border between nodes */
+  }
+  
+  .node-visited {
+    background-color: lightblue; /* Color for visited nodes */
+  }
+  
+  .node-shortest-path {
+    background-color: yellow; /* Color for the nodes in the shortest path */
+  }
+  
+  .node-start {
+    background-color: green; /* Color for the start node */
+  }
+  
+  .node-finish {
+    background-color: red; /* Color for the finish node */
+  }
+  
+  .node-wall {
+    background-color: black; /* Color for walls */
+  }
+  
